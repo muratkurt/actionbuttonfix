@@ -2,8 +2,6 @@
 
 Single click and double click for the Action Button. The long press stays Apple's.
 
-**This repository is for releases and bug reports. ActionButtonFix is closed source — no code here.**
-
 ## Install
 
 Add the repo in Sileo:
