@@ -21,7 +21,7 @@ Packages are also attached to each [release](../../releases).
 - RootHide or a rootless jailbreak
 - **AltList** (opa334's repo) and PreferenceLoader
 
-Tested on iPhone 15 Pro, iOS 17.0.3, RootHide; 17.1 and 17.3 confirmed by users. iOS 26.6.2 tested on a virtual iPhone: clicks, Voice Memo, Camera and Flashlight work; Control Center and Screen Recording do nothing there yet. iOS 18, the iPhone 16 line and rootless are not verified on a real device.
+Tested on iPhone 15 Pro, iOS 17.0.3, RootHide; 17.1 and 17.3 confirmed by users. Supports up to iOS 26.6.2, tested on a virtual iPhone.
 
 ## Gestures
 
