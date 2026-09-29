@@ -21,7 +21,7 @@ Packages are also attached to each [release](../../releases).
 - RootHide or a rootless jailbreak
 - **AltList** (opa334's repo) and PreferenceLoader
 
-Tested on iPhone 15 Pro, iOS 17.0.3, RootHide. The rootless package is built and shipped the same way, not verified on the developer's device. iOS 18 and the iPhone 16 line are untested.
+Tested on iPhone 15 Pro, iOS 17.0.3, RootHide; 17.1 and 17.3 confirmed by users. iOS 26.6.2 tested on a virtual iPhone: clicks, Voice Memo, Camera and Flashlight work; Control Center and Screen Recording do nothing there yet. iOS 18, the iPhone 16 line and rootless are not verified on a real device.
 
 ## Gestures
 
@@ -33,16 +33,18 @@ The short press is never handed to Apple, so the *Silent / hold* feedback in the
 
 ## Actions
 
+- **Voice Memo** — Apple's own Voice Memo action: starts and stops a recording, also on the Lock Screen and with the screen off; start/stop sound can be turned off
 - **Camera** — side and mode, set per click; optional auto-record, stopped by the same click
 - **Screen Recording** — same as Control Center's, interchangeable with it
 - **Control Center** — one module per click: Dark Mode, Rotation Lock, Silent Mode, Low Power Mode, QR Code Reader, Magnifier, Voice Memos, Quick Note, Stopwatch, Timer, Alarm, Calculator, Wallet
-- **Flashlight** — stays in sync with Control Center
+- **Flashlight** — stays in sync with Control Center; brightness per click
+- **Media** — play/pause, next, previous
 - **Screenshot** — the stock flow; does nothing while the screen is off
 - **App** — any installed app; does not open from the Lock Screen
 - **Stock Action** — the long-press action from iOS Settings
 - **None** — turns a click off; with double click set to None, the single click fires instantly
 
-Each click is configured on its own in **Settings › ActionButtonFix**, in 12 languages.
+Each click is configured on its own in **Settings › ActionButtonFix**, in 12 languages. Every action has its icon; the selected one is highlighted.
 
 Full description and changelog are on the [package page](https://muratkurt.github.io/depictions/com.muratkurt.actionbuttonfix.html).
 
