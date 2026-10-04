@@ -4,59 +4,24 @@ Single click and double click for the Action Button. The long press stays Apple'
 
 ## Install
 
-Add the repo in Sileo:
-
-```
-https://muratkurt.github.io/
-```
-
-Then install **ActionButtonFix**. It needs **AltList** (opa334's repo) and PreferenceLoader.
-
-Packages are also attached to each [release](../../releases).
+Add `https://muratkurt.github.io/` in Sileo and install **ActionButtonFix**. Needs **AltList** (opa334's repo) and PreferenceLoader. Packages are also on each [release](../../releases).
 
 ## Requirements
 
-- An iPhone with an Action Button — 15 Pro / Pro Max, and the 16 line
-- iOS 17 or later
-- RootHide or a rootless jailbreak
-- **AltList** (opa334's repo) and PreferenceLoader
-
-Tested on iPhone 15 Pro, iOS 17.0.3, RootHide; 17.1 and 17.3 confirmed by users. Supports up to iOS 26.6.2, tested on a virtual iPhone.
-
-## Gestures
-
-- **Single click** — an action you pick
-- **Double click** — a different action you pick
-- **Long press** — unchanged, whatever iOS Settings has
-
-The short press is never handed to Apple, so the *Silent / hold* feedback in the Dynamic Island never appears. Only your action runs.
+- iPhone 15 Pro / Pro Max or the 16 line
+- iOS 17 – 26.6.2, RootHide or rootless
 
 ## Actions
 
-- **Voice Memo** — Apple's own Voice Memo action: starts and stops a recording, also on the Lock Screen and with the screen off; start/stop sound can be turned off
-- **Camera** — side and mode, set per click; optional auto-record, stopped by the same click
-- **Screen Recording** — same as Control Center's, interchangeable with it
-- **Control Center** — one module per click: Dark Mode, Rotation Lock, Silent Mode, Low Power Mode, QR Code Reader, Magnifier, Voice Memos, Quick Note, Stopwatch, Timer, Alarm, Calculator, Wallet
-- **Flashlight** — stays in sync with Control Center; brightness per click
-- **Media** — play/pause, next, previous
-- **Screenshot** — the stock flow; does nothing while the screen is off
-- **App** — any installed app; does not open from the Lock Screen
-- **Stock Action** — the long-press action from iOS Settings
-- **None** — turns a click off; with double click set to None, the single click fires instantly
+Shortcut · Siri · Voice Memo · Camera · Screen Recording · Control Center · Flashlight · Media · Screenshot · App · Stock Action · None
 
-Each click is configured on its own in **Settings › ActionButtonFix**, in 12 languages. Every action has its icon; the selected one is highlighted.
+Each click is set on its own in **Settings › ActionButtonFix**. The tweak starts off; turn it on and pick your actions.
 
-Full description and changelog are on the [package page](https://muratkurt.github.io/depictions/com.muratkurt.actionbuttonfix.html).
+Details and changelog: [package page](https://muratkurt.github.io/depictions/com.muratkurt.actionbuttonfix.html).
 
-## First install
+## Bugs
 
-The tweak is off and both clicks are **None**. Turn it on in Settings › ActionButtonFix and pick your actions.
-
-Updating to 2.6.0 resets existing settings once; later updates keep them.
-
-## Reporting a bug
-
-Open an [issue](../../issues/new/choose). The form asks for your device, iOS version, jailbreak and tweak version — without those a report usually can't be acted on.
+Open an [issue](../../issues/new/choose) with your device, iOS version, jailbreak and tweak version.
 
 ## Credits
 
@@ -64,4 +29,4 @@ Built with [Claude Code](https://claude.com/claude-code).
 
 ## Licence
 
-Closed source. All rights reserved. The packages are free to install and use; redistribution and reverse engineering are not permitted.
+Closed source. All rights reserved. Free to install and use; redistribution and reverse engineering are not permitted.
