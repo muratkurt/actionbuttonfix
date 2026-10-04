@@ -13,7 +13,7 @@ Add `https://muratkurt.github.io/` in Sileo and install **ActionButtonFix**. Nee
 
 ## Actions
 
-Shortcut · Siri · Voice Memo · Camera · Screen Recording · Control Center · Flashlight · Media · Screenshot · App · Stock Action · None
+Control · Accessibility · Shortcut · Siri · Voice Memo · Camera · Screen Recording · Control Center · Flashlight · Media · Screenshot · App · Stock Action · None
 
 Each click is set on its own in **Settings › ActionButtonFix**. The tweak starts off; turn it on and pick your actions.
 
